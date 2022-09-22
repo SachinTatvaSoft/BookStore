@@ -1,0 +1,139 @@
+.cart-page-container {
+  min-height: 19.5rem;
+}
+
+.cart-items-container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.item-container {
+  border: 1px solid grey;
+  background-color: #e6e6e6;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 4px;
+  display: flex;
+  height: 134.2px;
+  width: 570.2px;
+  padding: 15px;
+  margin: 15px 0px 15px 0px;
+}
+
+.item-image {
+  height: 136px;
+  width: 117.2px;
+}
+
+.campus-sutra {
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.cart-item-name {
+  margin-bottom: 15px;
+  font-size: 13px;
+  font-weight: 400;
+  color: #f14d54;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+  margin: 1px 0px 0px 10px;
+}
+
+.quantity-button {
+  background-color: #f14d54 !important;
+  color: white !important;
+  height: 20px !important;
+  width: 20px !important;
+  padding: 1px !important;
+  min-width: 0 !important;
+}
+
+.quantity-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.quantity-display-text {
+  display: flex;
+  align-items: center;
+  padding: 0px 2px 2px 2px !important;
+  height: 15px !important;
+  margin: 0px 10px 0px 10px;
+  background-color: white;
+  border: 1px solid grey;
+  font-size: 13px;
+}
+
+.product-details-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.p-l-65px {
+  padding-left: 65px !important;
+}
+
+.discount-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.discount-container span:first-child {
+  color: grey;
+  text-decoration: line-through;
+  font-weight: 400;
+}
+
+.discount-container span:last-child {
+  font-weight: 600;
+}
+
+.cart-remove-text {
+  color: #f14d54;
+  font-weight: 400;
+  font-size: 13px;
+  padding-left: 45px;
+  cursor: pointer;
+}
+
+.cart-bag-price-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 90%;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.place-order-button {
+  background-color: #f14d54 !important;
+  color: white !important;
+  text-transform: none !important;
+  margin-top: 20px !important;
+  width: 139.75px;
+  height: 40px;
+  margin-left: -28.7rem !important
+}
+
+.shopping-bag-text{
+  font-size:18px ;
+  font-family:'Roboto';
+  color: #414141;
+}
+
+.total-price{
+  font-size:15px ;
+  font-family:'Roboto';
+  color: #414141;
+}

@@ -1,0 +1,19 @@
+.edit-button {
+  border: 1px solid #80bf32 !important;
+  color: #80bf32 !important;
+  height: 30px !important;
+  width: 80px !important;
+  margin-right: 10px !important;
+}
+
+.delete-button {
+  border: 1px solid #f14d53 !important;
+  color: #f14d54 !important;
+  height: 30px !important;
+  width: 80px !important;
+}
+
+.product-page-table-container {
+  min-height: 15.5rem;
+  padding: 2rem 4rem !important;
+}

@@ -1,0 +1,183 @@
+@import "./Styles/header.css";
+@import "./Styles/footer.css";
+@import "./Styles/productPage.css";
+@import "./Styles/cart.css";
+@import "./Styles/productListing.css";
+
+
+.layout-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.layout-container .footer {
+  justify-content: flex-end;
+}
+
+.layout-container .header {
+  justify-content: flex-start;
+}
+
+.layout-container .content-view-container {
+  height: max-content;
+  width: 100%;
+}
+
+.search-header {
+  height: 82px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(171, 171, 171, 0.2);
+}
+
+.home-login-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0px 25px 0px !important;
+}
+
+.login-page-create-text {
+  font-size: 32px;
+  font-family: "Roboto";
+  margin: 25px 0px 25px 0px;
+}
+
+.login-form-registraion-container {
+  display: flex;
+  flex-direction: row;
+  margin: 50px 0px 80px 0px;
+  width: 50%;
+}
+.login-page-div {
+  width: 100%;
+  padding: 1rem;
+}
+
+.login-main-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-heading-text {
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-family: "Roboto";
+  color: #414141;
+}
+
+.login-page-div ul {
+  padding: 25px !important;
+  margin: 0 !important;
+}
+.login-page-div ul li:first-child {
+  margin-top: 15px !important;
+}
+.login-page-div ul li {
+  margin-bottom: 15px !important;
+  font-size: 15px;
+  font-family: "Roboto";
+}
+.create-an-account-button {
+  text-transform: none !important;
+  background-color: #f14d54 !important;
+  margin-top: 165px !important;
+  height: 45px !important;
+  width: 220px !important;
+  color: white !important;
+}
+.login-button {
+  text-transform: none !important;
+  background-color: #f14d54 !important;
+  margin-top: 165px !important;
+  height: 45px !important;
+  width: 100px !important;
+  color: white !important;
+}
+.register-signup-button {
+  text-transform: none !important;
+  background-color: #f14d54 !important;
+  margin-top: 60px !important;
+  height: 45px !important;
+  width: 136px !important;
+  color: white !important;
+  margin-bottom: 80px !important;
+}
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  margin-bottom: 15px;
+  font-size: 15px;
+  font-family: "Roboto";
+  color: #414141;
+}
+
+.form-name-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: max-content;
+}
+
+.file-input {
+  display: flex;
+  flex-direction: row;
+  padding: 0 !important;
+}
+
+.file-upload::file-selector-button {
+  display: none;
+}
+
+.uplaod-button-container {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: flex-start !important;
+  border: 1px solid rgb(184, 182, 182) !important;
+  padding: 0 !important;
+  color: #414141 !important;
+}
+
+.upload-button {
+  margin-right: 10px !important;
+  background-color: #f14d54 !important;
+  text-transform: none !important;
+  height: 40px !important;
+  width: 120px !important;
+}
+
+.add-book-cancel-button {
+  height: 40px !important;
+  font-size: 16px !important;
+  width: 100px !important;
+  background-color: #f14d54 !important;
+  color: white !important;
+  margin: 0px 2px 0px 2px !important;
+  text-transform: none !important;
+  padding: 0 !important;
+}
+
+.add-book-save-button {
+  height: 40px !important;
+  font-size: 16px !important;
+  width: 100px !important;
+  background-color: #80bf32 !important;
+  color: white !important;
+  margin: 0px 2px 0px 2px !important;
+  text-transform: none !important;
+  padding: 0 !important;
+}
+
+.catergory-dropdown div {
+  padding: 8px !important;
+}
